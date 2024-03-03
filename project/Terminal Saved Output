@@ -1,0 +1,96 @@
+Last login: Sat Mar  2 17:11:24 on ttys004
+-bash: /Users/aditianand/.profile: No such file or directory
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Air-4:~ aditianand$ source ~/.bash_profile
+-bash: /Users/aditianand/.profile: No such file or directory
+MacBook-Air-4:~ aditianand$ source ~/.zshrc
+-bash: /Users/aditianand/.zshrc: No such file or directory
+MacBook-Air-4:~ aditianand$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+MacBook-Air-4:~ aditianand$ cd firstpythonapi
+MacBook-Air-4:firstpythonapi aditianand$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MacBook-Air-4:firstpythonapi aditianand$ source ~/.zshrc
+-bash: /Users/aditianand/.zshrc: No such file or directory
+MacBook-Air-4:firstpythonapi aditianand$ source ~/.bash_profile
+-bash: /Users/aditianand/.profile: No such file or directory
+MacBook-Air-4:firstpythonapi aditianand$ nano ~/.bash_profile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  GNU nano 2.0.6       File: /Users/aditianand/.bash_profile          Modified  
+
+PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"
+export PATH
+
+export PATH="$PATH:/Applications/DevDesktop/tools"
+
+export PATH="$PATH:/Applications/DevDesktop/drush_9"
+
+# Setting PATH for Python 3.8
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.8/bin:${PATH}"
+export PATH
+
+# Setting PATH for Python 3.9
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
+export PATH
+export OPENAI_API_KEY='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'
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
